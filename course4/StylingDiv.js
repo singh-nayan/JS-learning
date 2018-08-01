@@ -1,0 +1,14 @@
+var x=76;
+        var y="akash kunj";
+        var divi=document.getElementById('div1');
+        divi.innerHTML=x+" "+y;
+        //divi.innerHTML=new Date();                // gets date from system
+        divi.style.height='200px';
+        divi.style.border='1px solid black';
+        divi.style.width='200px';
+        divi.style.backgroundColor='yellow';
+        divi.style.borderRadius='100px';
+        divi.style.textAlign='center';
+        divi.style.lineHeight='200px';
+        //divi.style.display='none';
+        divi.style.color='red';

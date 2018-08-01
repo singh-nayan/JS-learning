@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Class</title>
+
+    <h1 class="heading">first heading</h1>
+    <h2 class="heading">second heading</h2>
+    <h3 class="heading">third heading</h3>
+
+    <h4>head 4-1</h4>
+    <h4>head 4-2</h4>
+    <h4>head 4-3</h4>
+
+    <p1 id="p1" >first para </p1> <br>
+    <p2 id="p2" >second para</p2> <br>
+    <p3 id="p3" >third para</p3> <br>
+</head>
+<body>
+    <script>
+    document.getElementById('p1').style.color='red';
+    document.getElementById('p2').style.color='blue';
+    document.getElementById('p3').style.color='pink';
+
+    document.getElementsByClassName('heading')[0].style.color='green';
+    document.getElementsByClassName('heading')[1].style.color='yellow';
+    document.getElementsByClassName('heading')[2].style.color='orange';
+
+    document.getElementsByTagName('h4')[0].style.color='brown';
+    document.getElementsByTagName('h4')[1].style.color='violet';
+    document.getElementsByTagName('h4')[2].style.color='indigo';
+
+    </script>
+
+</body>
+</html>

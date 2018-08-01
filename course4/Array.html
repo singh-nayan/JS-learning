@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Array</title>
+</head>
+<body>
+
+<p1 id="p1" >first para </p1> <br>
+<p2 id="p2" >second para</p2> <br>
+<p3 id="p3" >third para </p3> <br>
+<p4 id="p4" >fourth para </p4> <br>
+
+<script>
+cars =['tata','suzuki','maruti'];
+document.getElementById('p1').innerHTML=cars[0];
+document.getElementById('p2').innerHTML=cars[-1];
+document.getElementById('p3').innerHTML=cars[3];
+cars[3]='nissan';
+document.getElementById('p4').innerHTML=cars[3];
+</script>
+
+</body>
+</html>
