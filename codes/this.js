@@ -25,7 +25,7 @@ var person={
     
         var lastName="saxena ";
         //return this;                          // it will return the object in context
-        //return firstName+lastName;              // it will return global object key values    
+        //return firstName+lastName;                
         //return this.firstName+this.lastName     // it will return current object keys
         //return person.firstName+person.lastName   // it will work same as line just above
     }

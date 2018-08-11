@@ -46,3 +46,21 @@ var car2={
 car.detail();
 car.detail.call(car1,"2016 ","japan");
 car.detail.call(car2,"2012 ","india");
+
+
+
+function flower(){
+    return this.name;
+}
+
+flower1={
+    name:"lily "
+}
+
+flower2={
+    name:"lotus "
+}
+
+
+console.log(flower.call(flower1));
+console.log(flower.call(flower2));
