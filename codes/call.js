@@ -26,8 +26,8 @@ console.log(person1.fullName.call(person2));
 // call with arguments-------------------
 
 var car={
-    name:"maruti",
-    model:"swift",
+    name:"maruti ",
+    model:"swift ",
     detail:function(year,country){
         console.log(this.name+this.model+year+country)
     }
