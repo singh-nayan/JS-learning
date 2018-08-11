@@ -53,11 +53,11 @@ function flower(){
     return this.name;
 }
 
-flower1={
+var flower1={
     name:"lily "
 }
 
-flower2={
+var flower2={
     name:"lotus "
 }
 
