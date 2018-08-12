@@ -4,7 +4,7 @@ $(function(){
                  url: "https://api.nasa.gov/planetary/apod?api_key=NNKOjkoul8n1CH18TWA9gwngW1s1SmjESPjNoUFo",
                  success:(function(result){
                     
-                $("div").html(JSON.stringify(result));
+                $("h3").html(JSON.stringify(result));
                 console.log(result);
             })
         })
